@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "server.h": "c",
+        "stdio.h": "c",
+        "corecrt.h": "c",
+        "corecrt_wstdio.h": "c",
+        "vcruntime.h": "c"
+    }
+}
