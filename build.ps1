@@ -14,6 +14,12 @@ if ($env:OS -match "Windows") {
 
     cmd /s /v /c "main.bat";
 
+    Write-Host "last exit code $LASTEXITCODE";
+
+    if ($LASTEXITCODE -ne 0) {
+        exit $LASTEXITCODE;
+    }
+
     ./dist/main.exe;
 }
 else {

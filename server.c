@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+#if _WIN32
+#include <winsock.h>
+#else
+#include <sys/socket.h>
+#endif
 void start_server(void)
 {
     printf("------------------\n");
