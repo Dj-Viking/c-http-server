@@ -9,6 +9,6 @@ cl \
 -I "C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" \
 main.c server.c;
 
-echo "finished compilation with exit code => $?" 
+echo "finished compilation with exit code => $?";
 
 ./main.exe;
