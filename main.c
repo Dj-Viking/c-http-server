@@ -3,6 +3,11 @@
 
 int main(void)
 {
-	start_server();
-	return 0;
+	int result = start_server();
+	if (result != 0)
+	{
+		printf("there was some error after server start %d", result);
+		exit(result);
+	}
+	return result;
 }

@@ -4,6 +4,8 @@
         "stdio.h": "c",
         "corecrt.h": "c",
         "corecrt_wstdio.h": "c",
-        "vcruntime.h": "c"
+        "vcruntime.h": "c",
+        "winsock.h": "c",
+        "winsock2.h": "c"
     }
 }
